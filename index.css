@@ -1,0 +1,64 @@
+*{
+    font-family:'Open Sans','Roboto Mono', 'monospace', sans-serif ;
+}
+body{
+    background:url(https://www.techarena.co.ke/wp-content/uploads/2017/01/sophos.jpg);
+}
+main{
+    text-align: center;
+}
+h2{
+    color: white;
+    font-family:'Open Sans','Roboto Mono', 'monospace', sans-serif;
+    font-weight:200;
+    display: inline-block;
+    text-align: center;
+}
+#name{
+    font-weight:bolder;
+}
+#logo{
+    display: inline-block;
+}
+#loginPage{
+    background-color: white;
+    width: 650px;
+    height: 450px;
+    margin-left: 30%;
+    /* margin-right: 25%; */
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(69, 68, 68, 0.661);
+    display: flex; flex-direction: column;
+    align-items: center;
+    /* padding: 5px 20%; */
+    /* padding: 5em auto 5em auto; */
+}
+input,button{
+    width: 250px;
+    height: 40px;
+    border-top: none;
+    border: 1px solid rgb(121, 119, 119);
+    border-radius: 5px; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family:'Open Sans','Roboto Mono', 'monospace', sans-serif ;
+}
+#email-label{margin-top: 25px;}
+#button{
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-color: rgb(13, 181, 69);color: white;
+    font-weight: 600;
+}
+h4{
+    margin-top: 40px; font-weight: lighter; font-size: x-large;
+}
+a{
+    color: rgb(93, 93, 93);
+}
+@media(max-width:780px){
+    #loginPage{
+        width:100%;
+        margin-left: 0%;
+    }
+}
